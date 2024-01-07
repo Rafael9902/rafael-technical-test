@@ -9,7 +9,13 @@ import { Mapper } from '@automapper/core';
 export class ChallengeOneService {
   constructor(@InjectMapper() private mapper: Mapper) {}
 
-  mapSesStructure(sesSnsEventDto: SesSnsEventDto) {
-    return this.mapper.map(sesSnsEventDto, SesSnsEventDto, SesSnsResponseDto);
+  async mapSesStructure(
+    sesSnsEventDto: SesSnsEventDto,
+  ): Promise<SesSnsResponseDto> {
+    return await this.mapper.map(
+      sesSnsEventDto,
+      SesSnsEventDto,
+      SesSnsResponseDto,
+    );
   }
 }
