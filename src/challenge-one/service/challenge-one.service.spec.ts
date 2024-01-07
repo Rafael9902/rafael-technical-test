@@ -4,6 +4,7 @@ import { mockRequest } from '../utils/mock-request';
 import { AutomapperModule } from '@automapper/nestjs';
 import { classes } from '@automapper/classes';
 import { SESProfile } from '../utils/auto-mapper';
+import { mockResponse } from '../utils/mock-response';
 
 describe('ChallengeOneService', () => {
   let service: ChallengeOneService;
@@ -25,11 +26,10 @@ describe('ChallengeOneService', () => {
     expect(service).toBeDefined();
   });
 
-  it('should return correct structure', () => {
-    const output = service.mapSesStructure(mockRequest);
-
-    console.log(output, 'output');
+  it('should return correct structure', async () => {
+    const output = await service.mapSesStructure(mockRequest);
 
     expect(output).toBeDefined();
+    expect(output).toEqual(mockResponse);
   });
 });
