@@ -4,8 +4,9 @@ import { SesSnsEventDto } from '../dto/ses-sns-event.dto';
 import { SesSnsResponseDto } from '../dto/ses-sns-response.dto';
 import { ApiBody, ApiResponse } from '@nestjs/swagger';
 import { ApiTags } from '@nestjs/swagger';
+import { Tags } from '../../shared/open-api/tags';
 
-@ApiTags('Challenge One')
+@ApiTags(Tags.CHALLENGE_ONE)
 @Controller('challenge-one')
 export class ChallengeOneController {
   constructor(private callengeOneService: ChallengeOneService) {}
