@@ -17,13 +17,30 @@ describe('ChallengeTwoService', () => {
     expect(service).toBeDefined();
   });
 
-  it('should be return the json file', async () => {
-    const path = 'src/challenge-two/utils/email-test.eml';
+  it('should be return the json for case 1: file attachment', async () => {
+    const path = 'src/challenge-two/utils/email-test-case-1.eml';
 
     const output = await service.parseEmail(path);
 
-    console.log(output);
+    expect(output).toBeDefined();
+    expect(typeof output).toBe('object');
+  });
+
+  it('should be return the json for case 2: link to json', async () => {
+    const path = 'src/challenge-two/utils/email-test-case-2.eml';
+
+    const output = await service.parseEmail(path);
 
     expect(output).toBeDefined();
+    expect(typeof output).toBe('object');
+  });
+
+  it('should be return the json for case 3: link to web with json', async () => {
+    const path = 'src/challenge-two/utils/email-test-case-3.eml';
+
+    const output = await service.parseEmail(path);
+
+    expect(output).toBeDefined();
+    expect(typeof output).toBe('object');
   });
 });

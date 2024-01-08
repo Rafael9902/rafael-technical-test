@@ -7,8 +7,12 @@ export class ChallengeTwoService {
   constructor(private mailParser: MailParserService) {}
 
   async parseEmail(path: string) {
-    const emailBuffer = await fs.readFile(path);
+    const emailBuffer = await this.readFile(path);
 
-    return this.mailParser.parseEmail(emailBuffer);
+    return await this.mailParser.parseEmail(emailBuffer);
+  }
+
+  private async readFile(path: string): Promise<Buffer> {
+    return await fs.readFile(path);
   }
 }

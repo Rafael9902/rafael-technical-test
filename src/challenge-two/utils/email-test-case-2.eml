@@ -1,0 +1,19 @@
+MIME-Version: 1.0
+Date: Mon, 8 Jan 2024 11:44:25 -0500
+Message-ID: <CAHzLTUOY++vVHViknnQRk1xCQ8yHNDNB_4DD42rcmfMRFKiXtg@mail.gmail.com>
+Subject: json-test-2
+From: Rafael Ortiz <rafaelortiz.0602@gmail.com>
+To: Rafael Ortiz <rafaelortiz.0602@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000001e39b4060e71e9c4"
+
+--0000000000001e39b4060e71e9c4
+Content-Type: text/plain; charset="UTF-8"
+
+https://rickandmortyapi.com/api/character/284
+
+--0000000000001e39b4060e71e9c4
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><a href="https://rickandmortyapi.com/api/character/284">https://rickandmortyapi.com/api/character/284</a><br></div>
+
+--0000000000001e39b4060e71e9c4--
