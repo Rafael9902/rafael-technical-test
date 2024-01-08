@@ -1,73 +1,43 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+## Rafael Ortiz - Technical Test
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Project with the 2 challenges provided for the technical test.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+The solution was provided in modules(each challenge in a module):
 
-## Description
+- [Challenge one module](https://github.com/Rafael9902/rafael-technical-test/tree/main/src/challenge-one)
+- [Challenge two module](https://github.com/Rafael9902/rafael-technical-test/tree/main/src/challenge-two)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Feel free to contact me if you need to validate something about the test.
 
-## Installation
+### Dependencies
 
-```bash
-$ pnpm install
-```
+- [Nest.js](https://nestjs.com/)
+- [Automapper](https://automapperts.netlify.app/) (First challenge)
+- [mailparser](https://www.npmjs.com/package/mailparser) (Second challenge)
 
-## Running the app
+### Open Api
 
-```bash
-# development
-$ pnpm run start
+You can see the api documentation in the next url: [https://rafael-technical-test.onrender.com/api](https://rafael-technical-test.onrender.com/api).
 
-# watch mode
-$ pnpm run start:dev
+**Note:** If the above url doesn't work, please feel free to follow the installation steps.
 
-# production mode
-$ pnpm run start:prod
-```
+![image](https://github.com/Rafael9902/rafael-technical-test/assets/61321805/3be78246-cec3-4264-b815-d7274f840479)
 
-## Test
+### Installation
 
-```bash
-# unit tests
-$ pnpm run test
+- Docker
 
-# e2e tests
-$ pnpm run test:e2e
+  - `docker build -t technical-test .`
+  - `docker run -p 3000:3000 technical-test`
 
-# test coverage
-$ pnpm run test:cov
-```
+- npm
+  - `npm install`
+  - `npm start`
 
-## Support
+You can access to the api documentation typing `/api` at the end of the api url. Example [http://localhost:3000/api](http://localhost:3000/api)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+### Author
 
-## Stay in touch
+**Rafael Ortiz**
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+rafaelortiz99@outlook.com
