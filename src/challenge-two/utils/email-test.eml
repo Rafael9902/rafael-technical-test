@@ -1,0 +1,38 @@
+MIME-Version: 1.0
+Date: Mon, 8 Jan 2024 10:57:50 -0500
+Message-ID: <CAHzLTUOFUTfNeAHeiRn1CTtv6ZhAiSjyZtQWDzAHi7wukQ-9iw@mail.gmail.com>
+Subject: JSON Test
+From: Rafael Ortiz <rafaelortiz.0602@gmail.com>
+To: Rafael Ortiz <rafaelortiz.0602@gmail.com>
+Content-Type: multipart/mixed; boundary="00000000000084ccce060e71422d"
+
+--00000000000084ccce060e71422d
+Content-Type: multipart/alternative; boundary="00000000000084cccb060e71422b"
+
+--00000000000084cccb060e71422b
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--00000000000084cccb060e71422b
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><br></div>
+
+--00000000000084cccb060e71422b--
+--00000000000084ccce060e71422d
+Content-Type: application/json; name="test.json"
+Content-Disposition: attachment; filename="test.json"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_lr53w9pm0
+Content-ID: <f_lr53w9pm0>
+
+ewogICJzcGFtIjogInNwYW1WZXJkaWMgYSBib29sZWFuLCBQQVNTID0gdHJ1ZSIsCiAgInZpcnVz
+IjogInZpcnVzVmVyZGljIGEgYm9vbGVhbiwgUEFTUyA9IHRydWUiLAogICJkbnMiOiAic3BmVmVy
+ZGljLCBka2ltVmVyZWRpY3QsIGRtYXJjVmVyZWRpY3QgYSBib29sZWFuLCBzaSB0b2RvcyBQQVNT
+ID0gdHJ1ZSIsCiAgIm1lcyI6ICJtYWlsLnRpbWVzdGFtcCBhIG1lcyBjb21vIHRleHRvIiwKICAi
+cmV0cmFzYWRvIjogInByb2Nlc3NpbmdUaW1lTWlsbGlzIGEgYm9vbGVhbiwgPiAxMDAwID0gdHJ1
+ZSIsCiAgImVtaXNvciI6ICJtYWlsLnNvdXJjZSBhIHVzdWFyaW8gZGUgY29ycmVvIHNpbiBAZG9t
+aW5pby5jb20iLAogICJyZWNlcHRvciI6IFsibWFpbC5kZXN0aW5hdGlvbiBhIHVzdWFyaW9zIGRl
+IGNvcnJlbyBzaW4gQGRvbWluby5jb20iXQp9Cg==
+--00000000000084ccce060e71422d--
